@@ -10,6 +10,7 @@ body {
 }
 
 .footer {
+  color: #1c1c1c;
   display: flex;
   list-style: none;
   gap: 25px;
@@ -35,8 +36,16 @@ body {
   padding: 4px 10px;
 }
 
+.btn-content:hover, .btn-front:hover {
+  color: #ecebe4;
+  background-color: #1c1c1c;
+  cursor: help;
+  transition: 0.4s;
+}
+
 .building {
   margin-top: 40px;
   margin-left: 40px;
   margin-right: 40px;
 }
+
