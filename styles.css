@@ -15,6 +15,7 @@ body {
   list-style: none;
   gap: 25px;
   margin-top: 50px;
+  text-decoration: none;
 }
 
 .hero-main-section {
@@ -52,6 +53,7 @@ body {
 
 .button-YT {
   display: flex;
+  text-align: center;
 }
 
 .yt {
@@ -79,4 +81,11 @@ body {
   color: #ecebe4;
   background-color: #ff793f;
   transition: 0.4s;
+}
+
+.about-me {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 200;
 }
