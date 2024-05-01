@@ -34,6 +34,7 @@ body {
   border-radius: 4px;
   border: 1px solid #1c1c1c;
   padding: 4px 10px;
+  font-weight: bold;
 }
 
 .btn-content:hover, .btn-front:hover {
@@ -49,3 +50,33 @@ body {
   margin-right: 40px;
 }
 
+.button-YT {
+  display: flex;
+}
+
+.yt {
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: transparent;
+  color: #1c1c1c;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  padding: 12px 50px;
+  font-weight: bold;
+}
+
+.uc {
+  margin-left: 0px;
+  background-color: transparent;
+  color: #1c1c1c;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  padding: 12px 50px;
+  font-weight: bold;
+}
+
+.yt:hover, .uc:hover {
+  color: #ecebe4;
+  background-color: #ff793f;
+  transition: 0.4s;
+}
