@@ -1,0 +1,117 @@
+body {
+  background-color: #ecebe4;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: fit-content;
+  font-family: Helvetica, sans-serif;
+  color: #1c1c1c;
+  text-align: left;
+  font-weight: 200;
+}
+
+.footer {
+  color: #1c1c1c;
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+a:hover {
+  color: #ff793f;
+  transition: 0.4s;
+}
+
+
+.hero-main-section {
+  display: flex;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+strong {
+  position: relative;
+}
+
+strong::before {
+  background-color: yellow;
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-1deg);
+}
+
+
+.hero-para {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.btn-front, .btn-content {
+  background-color: #daddd8;
+  color: #1c1c1c;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  padding: 4px 10px;
+  font-weight: bold;
+}
+
+.btn-content:hover, .btn-front:hover {
+  color: #ecebe4;
+  background-color: #1c1c1c;
+  cursor: help;
+  transition: 0.4s;
+}
+
+.building {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.button-YT {
+  display: flex;
+}
+
+.yt {
+  margin-top: 20px;
+  margin-left: 40px;
+  background-color: #daddd8;
+  color: #1c1c1c;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  padding: 12px 50px;
+  font-weight: bold;
+}
+
+.uc {
+  margin-left: 0px;
+  background-color: #daddd8;
+  color: #1c1c1c;
+  border-radius: 4px;
+  border: 1px solid #1c1c1c;
+  padding: 12px 50px;
+  font-weight: bold;
+}
+
+.yt:hover, .uc:hover {
+  color: #ecebe4;
+  background-color: #ff793f;
+  transition: 0.4s;
+}
+
+.about-me {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-weight: 200;
+}
