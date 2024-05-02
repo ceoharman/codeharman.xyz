@@ -15,8 +15,18 @@ body {
   list-style: none;
   gap: 25px;
   margin-top: 50px;
-  text-decoration: none;
 }
+
+a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+a:hover {
+  color: #ff793f;
+  transition: 0.4s;
+}
+
 
 .hero-main-section {
   display: flex;
@@ -24,13 +34,30 @@ body {
   margin-right: 40px;
 }
 
+strong {
+  position: relative;
+}
+
+strong::before {
+  background-color: yellow;
+  content: "";
+  position: absolute;
+  width: calc(100% + 4px);
+  height: 60%;
+  left: -2px;
+  bottom: 0;
+  z-index: -1;
+  transform: rotate(-1deg);
+}
+
+
 .hero-para {
   margin-left: 40px;
   margin-right: 40px;
 }
 
 .btn-front, .btn-content {
-  background-color: transparent;
+  background-color: #daddd8;
   color: #1c1c1c;
   border-radius: 4px;
   border: 1px solid #1c1c1c;
@@ -53,13 +80,12 @@ body {
 
 .button-YT {
   display: flex;
-  text-align: center;
 }
 
 .yt {
   margin-top: 20px;
   margin-left: 40px;
-  background-color: transparent;
+  background-color: #daddd8;
   color: #1c1c1c;
   border-radius: 4px;
   border: 1px solid #1c1c1c;
@@ -69,7 +95,7 @@ body {
 
 .uc {
   margin-left: 0px;
-  background-color: transparent;
+  background-color: #daddd8;
   color: #1c1c1c;
   border-radius: 4px;
   border: 1px solid #1c1c1c;
