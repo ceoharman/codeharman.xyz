@@ -39,7 +39,7 @@ strong {
 }
 
 strong::before {
-  background-color: yellow;
+  background-color: #ff793f;
   content: "";
   position: absolute;
   width: calc(100% + 4px);
